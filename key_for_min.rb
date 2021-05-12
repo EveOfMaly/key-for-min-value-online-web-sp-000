@@ -17,12 +17,10 @@ def key_for_min_value(name_hash)
      elsif current_lowest_value > v 
          current_lowest_value = v 
          current_lowest_key = k 
-       end
      end
-   end
- end
- end
- end
+  end
+end
+
 
 
 p key_for_min_value(name_hash)
