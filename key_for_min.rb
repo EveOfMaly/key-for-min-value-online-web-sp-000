@@ -14,14 +14,18 @@ def key_for_min_value(name_hash)
     if current_lowest_value == nil 
        current_lowest_value = v
        current_lowest_key = k 
-     elsif current_lowest_value > v 
+     else
+       if current_lowest_value > v 
          current_lowest_value = v 
          current_lowest_key = k 
+       end
      end
-  end
-  p  current_lowest_value 
+   end
+ p  current_lowest_value 
   p current_lowest_key 
-end
+ end
+      
+
 
 
 
