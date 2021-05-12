@@ -8,7 +8,7 @@ name_hash = {:chair => 25, :table => 85, :mattress => 450}
 
 def key_for_min_value(name_hash)
   current_lowest_value = nil
-  current_lowest_key
+  current_lowest_key = nil
   
   name_hash.each do |k,v|
     if current_lowest == nil 
