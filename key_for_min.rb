@@ -22,7 +22,7 @@ def key_for_min_value(name_hash)
      end
    end
   p  current_lowest_key
-  p current current_lowest_value
+  p current_lowest_value
  end
        
 
